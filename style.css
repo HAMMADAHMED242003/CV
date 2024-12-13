@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-container {
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.cv-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.career-interest {
+    line-height: 2px;
+    text-align: center;
+    color: #555;
+    font-weight: 300;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.personal-info p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+tr:nth-child(even) td {
+    background-color: #dddada;
+}
+
+tr:hover {
+    background-color: #f1f1f1; 
+    transform: scale(1.02); 
+    transition: all 0.2s ease;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #444;
+}
+
+ul li:hover {
+    color: #c2bfbf; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3, h4 {
+    font-size: 18px;
+    color: #555;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+table, ul {
+    margin-bottom: 20px;
+}
+
+.cv-container .contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-container .contact-info div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.cv-container .contact-info div:last-child {
+    margin-right: 0;
+}
+
+.cv-container .contact-info p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
